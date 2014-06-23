@@ -1,0 +1,166 @@
+@import url("Header.css");
+html {
+    background-color:#234465;
+}
+/*image and image(section)*/
+#blur {
+    height:330pt;
+    width:100%;
+    background-image:url("images/blured.png");
+    background-repeat:no-repeat;
+}
+    #transparent {
+        width:100%;
+        height:330pt;
+        background-color:rgba(35,68,101,0.4);
+
+    }
+        #img-section {
+            font-family:sans-serif;
+            color:white;
+            padding:50pt;
+            height:330pt;
+            width:450pt;
+        }
+            #img-section h1 {
+                margin-top:15pt;
+                margin-bottom:7.5pt;
+                padding:3.75pt 7.5pt 3.75pt 7.5pt;
+                font-weight:normal;
+                font-size:27pt;
+            }
+
+            #img-section p {
+                padding:3.75pt 7.5pt 3.75pt 7.5pt;
+                margin-bottom:15pt;
+                font-size:15.75pt;
+                line-height:1.4;
+            }
+
+            #plans {
+                border:2px solid white;
+                display:inline-block;
+                width:225pt;
+                font-size:10.5pt;
+                font-weight:normal;
+                line-height:27pt;
+                text-align:center;
+                margin-left:7.5pt;
+                background-color:rgba(255,156,0,0.6);
+                -webkit-transition: all 0.5s ease;
+                -moz-transition: all 0.5s ease;
+                -ms-transition: all 0.5s ease;
+                -o-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+            }
+                #plans:hover {
+                    background-color:#ff9c00;
+                    border:2px solid #ff9c00;
+                }
+
+/*Body*/
+#fill {
+    position:absolute;
+    width:100%;
+    height:100pt;
+    background-color:#eeeeee;
+}
+#container {
+    position:absolute;
+    z-index:2;
+    width:100%;
+    height:400pt;
+    background-color:#eeeeee;
+    border-radius:40pt;
+}
+    #container section {
+        margin:10pt 0 10pt 50pt;
+        padding:0 10pt 0 10pt;
+        width:292.5pt;
+        height:379.9pt;
+        overflow:hidden;
+        font-size:11pt;
+    }
+         #container section h1 {
+             margin:10pt 0 10pt 0;
+             color:#234465;
+             font-size:18pt;
+             font-weight:normal;
+             font-family:sans-serif;
+         }
+         #container section p {
+             color:#5a5a5a;
+             line-height:15pt;
+         }
+         #container section:last-of-type {
+             position:absolute;
+             margin-left:670pt;
+             margin-top:-385pt;
+         }
+            #container section:last-of-type img {
+                border:1px solid #eeeeee;
+                width:262.5pt;
+                height:87pt;
+            }
+
+                #container section:last-of-type dt {
+                    margin:12pt 0 7.5pt 0;
+                    color:#4ca0dc;
+                    font-size:12pt;
+                    font-weight:bold;
+                    text-transform:uppercase;
+                }
+                #container section:last-of-type dd:first-of-type{
+                    border-top:1pt solid #234465;
+                }
+                #container section:last-of-type dd {
+                    line-height:24pt;
+                    font-size:10.5pt;
+                    padding:7.5pt 0 7.5pt 0;
+                    color:#5a5a7a;
+                    display:block;
+                    width:262.5pt;
+                    border-bottom:1pt solid #234465;
+                }
+                .list-button {
+                    width:32pt;
+                    height:24pt;
+                    font-size:10pt;
+                    text-transform:capitalize;
+                    text-align:center;
+                    border:2px solid #ff9c00;
+                    color:#ff9c00;
+                    float:right;
+                }
+                .list-button:hover {
+                    background-color:rgba(255,156,0,1);
+                    color:white;
+                    -webkit-transition: all 0.5s ease;
+                    -moz-transition: all 0.5s ease;
+                    -ms-transition: all 0.5s ease;
+                    -o-transition: all 0.5s ease;
+                    transition: all 0.5s ease;
+                }
+
+/*footer*/
+#larger-foot {
+    z-index:1;
+    position:relative;
+    margin-top:-50pt;
+    width:100%;
+    height:150pt;
+    background-color:#234465;
+}
+
+    #foot-contain {
+         margin-top:399.5pt;
+         border-radius:30pt;
+         width:100%;
+         height:150pt;
+         background-color:#234465;
+    }
+        .validator {
+            z-index:2;
+            margin-top:70pt;
+            margin-left:20pt;
+        }
