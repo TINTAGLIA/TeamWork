@@ -2,11 +2,11 @@
     margin:0;
     padding:0;
 }
-#wrapper {
-    width:100%;
-    height:90pt;
-    background-color:#234465;
-}
+/*#wrapper {*/
+    /*width:100%;*/
+    /*height:90pt;*/
+    /*background-color:#234465;*/
+/*}*/
 /* List Items */
 .nav {
     position:relative;
