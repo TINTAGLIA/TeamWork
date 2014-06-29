@@ -41,6 +41,8 @@
     color:white;
 }
 .nestedUl {
+    position: relative;
+    left: -0px;
     border-radius:2.25pt;
     border:1pt solid #1d3955;
     margin-top:7.5pt;
@@ -54,6 +56,9 @@
     display:inline-block;
     width:225pt;
     height:26.25pt;
+}
+a:hover #image{
+    opacity: 0.1;
 }
 #logo {
     vertical-align:middle;
