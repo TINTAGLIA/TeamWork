@@ -1,9 +1,0 @@
-diff a/Homepage.html b/Homepage.html	(rejected hunks)
-@@ -12,6 +12,7 @@
-         <div id="image">
-             <a href="Homepage.html">
-                 <img src="images/logo.png" id="logo"></a>
-+				
-         </div>
-         <nav>
-             <ul>
