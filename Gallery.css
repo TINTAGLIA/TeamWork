@@ -1,0 +1,116 @@
+@import url(Header.css);
+@import url(Footer.css);
+body {
+    margin: 0;
+    padding: 0;
+    color: #EEE;
+    font: normal 9pt Verdana;
+}
+html {
+    background-color:#234465;
+}
+a:link, a:visited {
+    color: #EEE;
+}
+img {
+    border: none;
+}
+#normal2, #normal3, #normal4, #normal5  {
+    display: none;
+}
+#normal6 {
+    display:none;
+}
+#normal7 {
+    display:none;
+}
+#normal8 {
+    display:none;
+}
+#normal9 {
+    display:none;
+}
+#gallery {
+    border-bottom-left-radius: 40pt;
+    border-bottom-right-radius: 40pt;
+    background-color:#e6e7e8;
+    margin-bottom:-400pt;
+    text-align:center;
+    height:565pt;
+    width: 100%;
+}
+#thumbs {
+    margin-left:0;
+    height:131.25pt;
+    margin-top:11.25pt;
+    position:absolute;
+    width:100%;
+}
+#java-basics {
+    font-size:18.25pt;
+    color:#4ca0dc;
+    border-radius:3.75pt;
+    margin-right:11.25pt;
+    margin-left:0;
+    width:318.75pt;
+    height:131.25pt;
+    display:inline-block;
+}
+#softuni-conf {
+    font-size:18.25pt;
+    border-radius:3.75pt;
+    margin-right: 11.25pt;
+    margin-left:0;
+    width:318.75pt;
+    height:131.25pt;
+    display:inline-block;
+    color:#4ca0dc;
+}
+#csharp-basics {
+    font-size:18.25pt;
+    border-radius:3.75pt;
+    margin-left:0;
+    width:318.75pt;
+    height:131.25pt;
+    display:inline-block;
+    color:#4ca0dc;
+}
+#bigimages {
+    width: 100%;
+}
+#thumbs img:first-of-type {
+    margin-left:6pt;
+}
+
+#thumbs img {
+    opacity:0.6;
+    border-radius:3.75pt;
+    margin-top:3.75pt;
+    display:inline-block;
+    width: 97.5pt;
+    height: 97.5pt;
+}
+#thumbs img:hover {
+    opacity:1;
+    transition: opacity .30s ease-in-out;
+}
+#bigimages img {
+    -webkit-box-shadow: 0px 1px 14px 0px rgba(0, 0, 37, 1);
+    -moz-box-shadow:    0px 1px 14px 0px rgba(0, 0, 37, 1);
+    box-shadow:         0px 1px 14px 0px rgba(0, 0, 37, 1);
+    margin-top: 11.25pt;
+    width: 562.5pt;
+    height:337.5pt;
+}
+#thumbs a:link, #thumbs a:visited {
+    width: 97.5pt;
+    height: 97.5pt;
+    margin: 2.25pt;
+    float:left;
+}
+#larger-foot {
+    height:100px;
+}
+#foot-contain a {
+    margin-top:100px;
+}
