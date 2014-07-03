@@ -1,0 +1,79 @@
+@import url('Header.css');
+@import url('Footer.css');
+html {
+    background-color: #234465;
+    font: normal 9pt Verdana;
+}
+#container {
+    border-bottom-left-radius: 40pt;
+    border-bottom-right-radius: 40pt;
+    background-color:#e6e7e8;
+    margin-bottom:-400pt;
+    text-align:center;
+    height:600pt;
+    width: 100%;
+    z-index:2;
+}
+#container h1 {
+    font-weight:normal;
+    position:absolute;
+    font-size:36px;
+    color:#234465;
+    text-align:left;
+    margin-left:150px;
+    margin-top:20px;
+}
+#img {
+    width:300px;
+    height:270px;
+    position:absolute;
+    left:170px;
+    top:187px;
+    border-radius:10px;
+    z-index:6;
+}
+#big {
+    position:absolute;
+    margin-top:80px;
+    margin-left:150px;
+    height:650px;
+    width:80%;
+}
+
+#big div {
+    height:108px;
+    width:100%;
+    padding:10px;
+}
+#big div:first-of-type {
+    margin-top:250px;
+    height:60px;
+}
+#big div:nth-of-type(2) {
+    height:108px;
+}
+#big div:nth-of-type(3) {
+    height:58px;
+}
+#big div:nth-of-type(4) {
+    height:48px;
+}
+#big div:nth-of-type(odd) p{
+    color:#3d99d9;
+}
+#big div p{
+    font-size:16px;
+    color:#5a5a5a;
+    font-style:italic;
+    text-align:left;
+}
+#foot-contain a {
+    margin-top:80px;
+    margin-left:125px;
+}
+#foot-contain a:nth-of-type(4) {
+    margin-left:125px;
+}
+#foot-contain a:nth-of-type(3) {
+    margin-left:125px;
+}
